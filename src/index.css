@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+@theme inline {
+  --font-display: 'Rajdhani', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-navy-950: #050d1a;
+  --color-navy-900: #0a1628;
+  --color-navy-800: #0f2040;
+  --color-navy-700: #163058;
+  --color-navy-600: #1e4070;
+  --color-navy-500: #2a5290;
+  --color-navy-400: #3a6ab0;
+  --color-saffron-600: #cc5500;
+  --color-saffron-500: #e05f00;
+  --color-saffron-400: #ff6b00;
+  --color-saffron-300: #ff8533;
+  --color-saffron-200: #ffaa70;
+  --color-green-600: #0d6b06;
+  --color-green-500: #138808;
+  --color-green-400: #1aaa0a;
+  --color-green-300: #40c830;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
